@@ -1,7 +1,7 @@
 # Reproduction package: Distortion Analysis of Hedge-Algebra Quantization for Multigranular Clustering
 
-This folder contains the code, the data and the archived per-split results needed to reproduce every table, figure
-and number of the paper
+This repository contains the code, the data and the archived per-split results needed to reproduce every table,
+figure and number of the paper
 
 > N. D. Hieu and H. T. Minh, *Distortion Analysis of Hedge-Algebra Quantization for Multigranular Clustering*
 > (submitted). Confirmatory protocol registered at OSF, doi:[10.17605/OSF.IO/KN54P](https://doi.org/10.17605/OSF.IO/KN54P).
@@ -153,4 +153,4 @@ copies here are provided for reproducibility under the terms of their sources.
 
 ## Licence and citation
 
-Code: GPL-3.0-or-later (`LICENSE`). If you use this package, please cite the paper above and the OSF registration.
+Code: MIT licence (`LICENSE`). The datasets remain under the terms of their sources (`DATASETS.md`). If you use this package, please cite the paper above and the OSF registration.

@@ -1,2 +1,2 @@
-# Auto detect text files and perform LF normalization
-* text=auto
+# Keep every file byte-identical on all platforms: the SHA-256 manifests check exact bytes.
+* -text

@@ -179,3 +179,8 @@ cython_debug/
 #  refer to https://docs.cursor.com/context/ignore-files
 .cursorignore
 .cursorindexingignore
+# Reproduction package
+.venv/
+out/
+results/GW-HAC_v2/
+!results/archive/logs/*.log

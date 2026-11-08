@@ -1,0 +1,11 @@
+[done] qsar_biodeg (val11) N=1055 F=41 K=2 in 9s
+[done] phoneme (val11) N=5404 F=5 K=2 in 9s
+[done] wilt (val11) N=4839 F=5 K=2 in 8s
+[done] blood_transfusion (val11) N=748 F=4 K=2 in 3s
+[done] ozone (val11) N=2534 F=72 K=2 in 29s
+[done] spambase (val11) N=4601 F=57 K=2 in 30s
+[done] cardiotocography (val11) N=2126 F=35 K=10 in 32s
+[done] wall_robot (val11) N=5456 F=24 K=4 in 34s
+[done] magic_telescope (val11) N=19020 F=10 K=2 in 36s
+[done] mfeat_karhunen (val11) N=2000 F=64 K=10 in 65s
+[done] texture (val11) N=5500 F=40 K=11 in 96s

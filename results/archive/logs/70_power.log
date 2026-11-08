@@ -1,0 +1,31 @@
+{
+ "n_dev": 25,
+ "delta_raw": 0.01816847084616088,
+ "delta": 0.02,
+ "sigma_d": 0.09527861001732635,
+ "n_required": 188,
+ "n_max": 217,
+ "dev_median_diff_GWHAC_minus_FLU8": 0.0023744879372976915
+}
+n=  40 power=0.322
+n=  50 power=0.412
+n=  60 power=0.510
+n=  70 power=0.582
+n=  80 power=0.651
+n=  90 power=0.715
+n= 100 power=0.773
+n= 110 power=0.814
+{
+ "n_dev": 25,
+ "delta_raw": 0.01816847084616088,
+ "delta": 0.02,
+ "sigma_d": 0.09527861001732635,
+ "n_required": 110,
+ "n_max": 127,
+ "method": "bootstrap simulation of the one-sided Wilcoxon NI test (H1) at the worst Holm level alpha_A/3",
+ "sim_alpha": 0.008333333333333333,
+ "sim_R": 4000,
+ "sim_seed": 20261106,
+ "n_formula_not_used": 188,
+ "dev_median_diff_GWHAC_minus_FLU8": 0.0023744879372976915
+}
