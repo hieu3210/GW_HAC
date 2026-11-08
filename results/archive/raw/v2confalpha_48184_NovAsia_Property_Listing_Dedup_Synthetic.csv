@@ -1,0 +1,11 @@
+dataset,split,level,share_in_band,F
+48184_NovAsia_Property_Listing_Dedup_Synthetic,0,2,0.0,8
+48184_NovAsia_Property_Listing_Dedup_Synthetic,0,5,0.0,8
+48184_NovAsia_Property_Listing_Dedup_Synthetic,1,2,0.0,8
+48184_NovAsia_Property_Listing_Dedup_Synthetic,1,5,0.125,8
+48184_NovAsia_Property_Listing_Dedup_Synthetic,2,2,0.0,8
+48184_NovAsia_Property_Listing_Dedup_Synthetic,2,5,0.0,8
+48184_NovAsia_Property_Listing_Dedup_Synthetic,3,2,0.0,8
+48184_NovAsia_Property_Listing_Dedup_Synthetic,3,5,0.125,8
+48184_NovAsia_Property_Listing_Dedup_Synthetic,4,2,0.0,8
+48184_NovAsia_Property_Listing_Dedup_Synthetic,4,5,0.125,8

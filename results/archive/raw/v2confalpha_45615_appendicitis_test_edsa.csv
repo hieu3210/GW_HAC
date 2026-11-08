@@ -1,0 +1,11 @@
+dataset,split,level,share_in_band,F
+45615_appendicitis_test_edsa,0,2,0.42857142857142855,7
+45615_appendicitis_test_edsa,0,5,1.0,7
+45615_appendicitis_test_edsa,1,2,0.7142857142857143,7
+45615_appendicitis_test_edsa,1,5,1.0,7
+45615_appendicitis_test_edsa,2,2,0.7142857142857143,7
+45615_appendicitis_test_edsa,2,5,0.8571428571428571,7
+45615_appendicitis_test_edsa,3,2,0.8571428571428571,7
+45615_appendicitis_test_edsa,3,5,1.0,7
+45615_appendicitis_test_edsa,4,2,0.8571428571428571,7
+45615_appendicitis_test_edsa,4,5,0.8571428571428571,7

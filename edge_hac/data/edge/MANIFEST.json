@@ -1,0 +1,71 @@
+{
+  "beed_eeg": {
+    "fetched": "2026-10-18 19:35:13",
+    "n_classes": 4,
+    "sha256": "c0dac10220887959641187f56ac2d84d25ab0b891fb9f27ab7f36a39321a536b",
+    "shape": [
+      8000,
+      16
+    ],
+    "source": "https://archive.ics.uci.edu/static/public/1134/beed%3A+bangalore+eeg+epilepsy+dataset.zip"
+  },
+  "eeg_eye_state": {
+    "fetched": "2026-10-18 20:05:38",
+    "n_classes": 2,
+    "sha256": "aea7698a15d0cd69bce01a410bf57c7c854a004a70f2364f8db7c78b8fe1c65b",
+    "shape": [
+      14980,
+      14
+    ],
+    "source": "openml:eeg-eye-state:v1"
+  },
+  "gas_drift": {
+    "fetched": "2026-10-18 19:35:11",
+    "n_classes": 6,
+    "sha256": "d2fadac590621dc5380b50cc52a2443e08e6afd7689aaafe3871a8ca84283668",
+    "shape": [
+      13910,
+      128
+    ],
+    "source": "https://archive.ics.uci.edu/static/public/224/gas+sensor+array+drift+dataset.zip"
+  },
+  "har": {
+    "n_classes": 6,
+    "sha256": "37cc5f4c1f6631eb23338056b9927bcf355519291216efa18e9e6dd154e0a42e",
+    "shape": [
+      10299,
+      561
+    ],
+    "source": "UCI-240 (identical content to OpenML har id 1478)"
+  },
+  "optdigits": {
+    "fetched": "2026-10-18 19:57:40",
+    "n_classes": 10,
+    "sha256": "aabb3ac05651f6b8e708892b92e10d2b7acadfafa4bbea1812f0226f6592e39f",
+    "shape": [
+      5620,
+      64
+    ],
+    "source": "openml:optdigits:v1"
+  },
+  "pendigits": {
+    "fetched": "2026-10-18 19:47:17",
+    "n_classes": 10,
+    "sha256": "f3282d046c94f79ad4e77721f42a8868d62069c1dd70ec20959a1ad38a28473f",
+    "shape": [
+      10992,
+      16
+    ],
+    "source": "openml:pendigits:v1"
+  },
+  "satimage": {
+    "fetched": "2026-10-18 19:55:56",
+    "n_classes": 6,
+    "sha256": "978721133a0d8fc5de20b9a8e277787a7cc96f24711bfce8a72523d6019f1fb1",
+    "shape": [
+      6430,
+      36
+    ],
+    "source": "openml:satimage:v1"
+  }
+}

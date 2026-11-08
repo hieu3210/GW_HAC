@@ -1,0 +1,11 @@
+dataset,split,level,share_in_band,F
+46868_Phishing_Legitimate_full,0,2,0.02127659574468085,47
+46868_Phishing_Legitimate_full,0,5,0.1276595744680851,47
+46868_Phishing_Legitimate_full,1,2,0.0425531914893617,47
+46868_Phishing_Legitimate_full,1,5,0.19148936170212766,47
+46868_Phishing_Legitimate_full,2,2,0.0425531914893617,47
+46868_Phishing_Legitimate_full,2,5,0.14893617021276595,47
+46868_Phishing_Legitimate_full,3,2,0.02127659574468085,47
+46868_Phishing_Legitimate_full,3,5,0.1702127659574468,47
+46868_Phishing_Legitimate_full,4,2,0.0425531914893617,47
+46868_Phishing_Legitimate_full,4,5,0.14893617021276595,47

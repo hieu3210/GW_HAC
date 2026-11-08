@@ -1,0 +1,12 @@
+{
+ "prereg_file": "edge_hac/v2/docs/PREREG_E7_FILLED.md",
+ "prereg_sha256": "8a5e46802140b7be1ace3695f475793173dc288e1a5f4921aed1a14733fc46a1",
+ "selection_sha256": "ac010549dd209c78053a90c923811ec0f0a0e20429cc98af36fe2aa53f81b5ba",
+ "code_sha256": "3dba7f5439c33c7ce74340654fcadd1443aa89780f6b85cc2f20e1cc1580545f",
+ "created": "2026-11-06T21:05:54",
+ "osf_id": "10.17605/OSF.IO/KN54P",
+ "listing_file": "edge_hac/data/validation2/OPENML_LISTING.csv",
+ "listing_sha256": "5a67cee4fab7957cd2069bf94c8b20653d261a1e85057c8d0b52a4e6143fdb54",
+ "fetch_started": "2026-11-06T22:18:55",
+ "fetch_finished": "2026-11-06T23:03:37"
+}

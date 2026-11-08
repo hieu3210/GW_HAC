@@ -1,0 +1,11 @@
+dataset,split,level,share_in_band,F
+46264_mabbob_ela_as_2d_classify,0,2,0.28888888888888886,45
+46264_mabbob_ela_as_2d_classify,0,5,0.9111111111111111,45
+46264_mabbob_ela_as_2d_classify,1,2,0.4222222222222222,45
+46264_mabbob_ela_as_2d_classify,1,5,0.7555555555555555,45
+46264_mabbob_ela_as_2d_classify,2,2,0.37777777777777777,45
+46264_mabbob_ela_as_2d_classify,2,5,0.7777777777777778,45
+46264_mabbob_ela_as_2d_classify,3,2,0.4,45
+46264_mabbob_ela_as_2d_classify,3,5,0.7777777777777778,45
+46264_mabbob_ela_as_2d_classify,4,2,0.3111111111111111,45
+46264_mabbob_ela_as_2d_classify,4,5,0.8444444444444444,45

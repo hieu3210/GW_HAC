@@ -1,0 +1,23 @@
+{
+  "study": "GW-HAC (merge of Edge-HAC and W-HAC), Information Sciences",
+  "frozen": "2026-10-27",
+  "semantics": {"primary": "little", "sensitivity": "rather", "specificities": [1, 2, 3], "primary_spec": 2,
+                "primary_theta_alpha": [0.5, 0.5]},
+  "datasets": {"A": "edgehac.datasets.UCI18", "C": "edgehac.datasets.EDGE7",
+               "B": ["era", "esl", "lev", "swd", "breast_w", "car", "nursery"]},
+  "protocol_numeric": {"splits": 5, "splits_if_NF_gt_1e6": 3, "train_fraction": 0.5, "split_fn": "edgehac.datasets.split"},
+  "protocol_ordinal": {"in_sample": true, "seeds": 10, "rank_to_semantic": "r/(m-1)"},
+  "GW": {"weights": "EWA-HAC fit on the training half", "n_init": 5},
+  "EWA_HAC": {"theta_alpha_grid": [0.3, 0.5, 0.7], "gamma_grid": [0.1, 0.5, 1.0, 2.0], "lambda": 0.01, "sil_sample": 2000},
+  "FL": {"T_match_GW": true, "kmeans_n_init": 10, "fcm_m": 2.0},
+  "TSK": {"R": [2, 4, 8], "R_cap_dim": 2000, "lambda": [0.01, 1.0, 100.0, 10000.0], "order": 1, "H": 50, "T": 30,
+          "selection": "silhouette on the training half"},
+  "OCL": {"seeds": 10},
+  "trees": {"IMM_leaves": "K", "ExKMC_leaves": "2K"},
+  "H1": {"delta": 0.02, "rope": 0.01},
+  "H2": {"delta": 0.02},
+  "H5": {"grid": 19, "grid_range": [0.05, 0.95], "n_labels": [20, 50, 100]},
+  "H6": {"fidelity": 0.9},
+  "alpha_level": 0.05, "correction": "Holm within hypothesis",
+  "failure_rule": "method missing on >20% of datasets excluded from that test", "octave_timeout_s": 7200
+}

@@ -1,0 +1,11 @@
+dataset,split,level,share_in_band,F
+41671_microaggregation2,0,2,0.3,20
+41671_microaggregation2,0,5,0.6,20
+41671_microaggregation2,1,2,0.25,20
+41671_microaggregation2,1,5,0.6,20
+41671_microaggregation2,2,2,0.3,20
+41671_microaggregation2,2,5,0.6,20
+41671_microaggregation2,3,2,0.3,20
+41671_microaggregation2,3,5,0.6,20
+41671_microaggregation2,4,2,0.3,20
+41671_microaggregation2,4,5,0.6,20

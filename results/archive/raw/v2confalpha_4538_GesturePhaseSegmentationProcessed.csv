@@ -1,0 +1,11 @@
+dataset,split,level,share_in_band,F
+4538_GesturePhaseSegmentationProcessed,0,2,0.03125,32
+4538_GesturePhaseSegmentationProcessed,0,5,0.5,32
+4538_GesturePhaseSegmentationProcessed,1,2,0.0,32
+4538_GesturePhaseSegmentationProcessed,1,5,0.65625,32
+4538_GesturePhaseSegmentationProcessed,2,2,0.0,32
+4538_GesturePhaseSegmentationProcessed,2,5,0.4375,32
+4538_GesturePhaseSegmentationProcessed,3,2,0.0,32
+4538_GesturePhaseSegmentationProcessed,3,5,0.40625,32
+4538_GesturePhaseSegmentationProcessed,4,2,0.03125,32
+4538_GesturePhaseSegmentationProcessed,4,5,0.46875,32

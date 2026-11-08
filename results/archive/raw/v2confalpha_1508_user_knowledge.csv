@@ -1,0 +1,11 @@
+dataset,split,level,share_in_band,F
+1508_user_knowledge,0,2,0.6,5
+1508_user_knowledge,0,5,1.0,5
+1508_user_knowledge,1,2,0.4,5
+1508_user_knowledge,1,5,0.8,5
+1508_user_knowledge,2,2,0.6,5
+1508_user_knowledge,2,5,0.8,5
+1508_user_knowledge,3,2,0.4,5
+1508_user_knowledge,3,5,0.8,5
+1508_user_knowledge,4,2,0.4,5
+1508_user_knowledge,4,5,0.8,5

@@ -1,0 +1,11 @@
+dataset,split,level,share_in_band,F
+41430_DiabeticMellitus,0,2,0.0,95
+41430_DiabeticMellitus,0,5,0.042105263157894736,95
+41430_DiabeticMellitus,1,2,0.020833333333333332,96
+41430_DiabeticMellitus,1,5,0.020833333333333332,96
+41430_DiabeticMellitus,2,2,0.0,96
+41430_DiabeticMellitus,2,5,0.041666666666666664,96
+41430_DiabeticMellitus,3,2,0.0,97
+41430_DiabeticMellitus,3,5,0.041237113402061855,97
+41430_DiabeticMellitus,4,2,0.0,97
+41430_DiabeticMellitus,4,5,0.041237113402061855,97

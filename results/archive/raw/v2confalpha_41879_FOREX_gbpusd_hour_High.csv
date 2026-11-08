@@ -1,0 +1,11 @@
+dataset,split,level,share_in_band,F
+41879_FOREX_gbpusd_hour_High,0,2,0.1,10
+41879_FOREX_gbpusd_hour_High,0,5,0.9,10
+41879_FOREX_gbpusd_hour_High,1,2,0.1,10
+41879_FOREX_gbpusd_hour_High,1,5,0.9,10
+41879_FOREX_gbpusd_hour_High,2,2,0.1,10
+41879_FOREX_gbpusd_hour_High,2,5,0.9,10
+41879_FOREX_gbpusd_hour_High,3,2,0.2,10
+41879_FOREX_gbpusd_hour_High,3,5,1.0,10
+41879_FOREX_gbpusd_hour_High,4,2,0.2,10
+41879_FOREX_gbpusd_hour_High,4,5,1.0,10

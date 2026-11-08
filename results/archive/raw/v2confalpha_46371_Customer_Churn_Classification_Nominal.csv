@@ -1,0 +1,11 @@
+dataset,split,level,share_in_band,F
+46371_Customer_Churn_Classification_Nominal,0,2,0.16666666666666666,24
+46371_Customer_Churn_Classification_Nominal,0,5,0.2916666666666667,24
+46371_Customer_Churn_Classification_Nominal,1,2,0.16666666666666666,24
+46371_Customer_Churn_Classification_Nominal,1,5,0.2916666666666667,24
+46371_Customer_Churn_Classification_Nominal,2,2,0.16666666666666666,24
+46371_Customer_Churn_Classification_Nominal,2,5,0.2916666666666667,24
+46371_Customer_Churn_Classification_Nominal,3,2,0.16666666666666666,24
+46371_Customer_Churn_Classification_Nominal,3,5,0.2916666666666667,24
+46371_Customer_Churn_Classification_Nominal,4,2,0.16666666666666666,24
+46371_Customer_Churn_Classification_Nominal,4,5,0.2916666666666667,24

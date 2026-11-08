@@ -1,0 +1,11 @@
+dataset,split,level,share_in_band,F
+46382_company_quality_and_valuation_finance,0,2,0.3333333333333333,9
+46382_company_quality_and_valuation_finance,0,5,0.5555555555555556,9
+46382_company_quality_and_valuation_finance,1,2,0.3333333333333333,9
+46382_company_quality_and_valuation_finance,1,5,0.5555555555555556,9
+46382_company_quality_and_valuation_finance,2,2,0.2222222222222222,9
+46382_company_quality_and_valuation_finance,2,5,0.5555555555555556,9
+46382_company_quality_and_valuation_finance,3,2,0.3333333333333333,9
+46382_company_quality_and_valuation_finance,3,5,0.6666666666666666,9
+46382_company_quality_and_valuation_finance,4,2,0.5555555555555556,9
+46382_company_quality_and_valuation_finance,4,5,0.7777777777777778,9

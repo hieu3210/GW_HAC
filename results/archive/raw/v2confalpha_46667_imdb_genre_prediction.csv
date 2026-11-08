@@ -1,0 +1,11 @@
+dataset,split,level,share_in_band,F
+46667_imdb_genre_prediction,0,2,0.42857142857142855,7
+46667_imdb_genre_prediction,0,5,0.7142857142857143,7
+46667_imdb_genre_prediction,1,2,0.2857142857142857,7
+46667_imdb_genre_prediction,1,5,0.8571428571428571,7
+46667_imdb_genre_prediction,2,2,0.42857142857142855,7
+46667_imdb_genre_prediction,2,5,0.8571428571428571,7
+46667_imdb_genre_prediction,3,2,0.42857142857142855,7
+46667_imdb_genre_prediction,3,5,0.7142857142857143,7
+46667_imdb_genre_prediction,4,2,0.14285714285714285,7
+46667_imdb_genre_prediction,4,5,0.7142857142857143,7

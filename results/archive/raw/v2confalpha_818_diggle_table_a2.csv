@@ -1,0 +1,11 @@
+dataset,split,level,share_in_band,F
+818_diggle_table_a2,0,2,0.5714285714285714,7
+818_diggle_table_a2,0,5,1.0,7
+818_diggle_table_a2,1,2,0.42857142857142855,7
+818_diggle_table_a2,1,5,1.0,7
+818_diggle_table_a2,2,2,0.5714285714285714,7
+818_diggle_table_a2,2,5,1.0,7
+818_diggle_table_a2,3,2,0.42857142857142855,7
+818_diggle_table_a2,3,5,0.8571428571428571,7
+818_diggle_table_a2,4,2,0.42857142857142855,7
+818_diggle_table_a2,4,5,1.0,7

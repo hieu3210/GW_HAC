@@ -1,0 +1,11 @@
+dataset,split,level,share_in_band,F
+43904_law_school_admission_bianry,0,2,0.6,5
+43904_law_school_admission_bianry,0,5,0.8,5
+43904_law_school_admission_bianry,1,2,0.6,5
+43904_law_school_admission_bianry,1,5,0.8,5
+43904_law_school_admission_bianry,2,2,0.6,5
+43904_law_school_admission_bianry,2,5,1.0,5
+43904_law_school_admission_bianry,3,2,0.6,5
+43904_law_school_admission_bianry,3,5,0.8,5
+43904_law_school_admission_bianry,4,2,0.6,5
+43904_law_school_admission_bianry,4,5,1.0,5

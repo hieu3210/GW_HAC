@@ -1,0 +1,11 @@
+dataset,split,level,share_in_band,F
+957_braziltourism,0,2,0.25,4
+957_braziltourism,0,5,0.75,4
+957_braziltourism,1,2,0.0,4
+957_braziltourism,1,5,1.0,4
+957_braziltourism,2,2,0.0,4
+957_braziltourism,2,5,0.75,4
+957_braziltourism,3,2,0.0,4
+957_braziltourism,3,5,0.75,4
+957_braziltourism,4,2,0.0,4
+957_braziltourism,4,5,1.0,4

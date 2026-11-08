@@ -1,0 +1,11 @@
+dataset,split,level,share_in_band,F
+1498_sa_heart,0,2,0.125,8
+1498_sa_heart,0,5,0.875,8
+1498_sa_heart,1,2,0.125,8
+1498_sa_heart,1,5,0.875,8
+1498_sa_heart,2,2,0.125,8
+1498_sa_heart,2,5,1.0,8
+1498_sa_heart,3,2,0.125,8
+1498_sa_heart,3,5,1.0,8
+1498_sa_heart,4,2,0.125,8
+1498_sa_heart,4,5,0.75,8

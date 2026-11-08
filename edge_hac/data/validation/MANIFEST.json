@@ -1,0 +1,116 @@
+{
+ "spambase": {
+  "id": 44,
+  "openml_name": "spambase",
+  "version": "1",
+  "N": 4601,
+  "F": 57,
+  "K": 2,
+  "dropped_rows": 0,
+  "sha256": "0325d02ed1a97187a0f1ab921d32f6d823cd214b906d5c2422868c5f52b398b3"
+ },
+ "magic_telescope": {
+  "id": 1120,
+  "openml_name": "MagicTelescope",
+  "version": "1",
+  "N": 19020,
+  "F": 10,
+  "K": 2,
+  "dropped_rows": 0,
+  "sha256": "e954274147a60b06d5d38e22302f4131ccb201e9b89ac63e2e97185b6e9becb4"
+ },
+ "page_blocks": {
+  "id": 30,
+  "dropped": "download failed"
+ },
+ "wall_robot": {
+  "id": 1497,
+  "openml_name": "wall-robot-navigation",
+  "version": "1",
+  "N": 5456,
+  "F": 24,
+  "K": 4,
+  "dropped_rows": 0,
+  "sha256": "474b833104f1e1fa632ee35420b6e193744ab78e70e766e13203a97831fcc433"
+ },
+ "phoneme": {
+  "id": 1489,
+  "openml_name": "phoneme",
+  "version": "1",
+  "N": 5404,
+  "F": 5,
+  "K": 2,
+  "dropped_rows": 0,
+  "sha256": "ea93fa13c9a5ca766efb8581be55bd5344210ee869f16d8ffdc88f4f80c035c1"
+ },
+ "wilt": {
+  "id": 40983,
+  "openml_name": "wilt",
+  "version": "2",
+  "N": 4839,
+  "F": 5,
+  "K": 2,
+  "dropped_rows": 0,
+  "sha256": "ca4bc0a3ed0be303857dd46712b652458438cf0768ad122c159ae6c425ca57f7"
+ },
+ "cardiotocography": {
+  "id": 1466,
+  "openml_name": "cardiotocography",
+  "version": "1",
+  "N": 2126,
+  "F": 35,
+  "K": 10,
+  "dropped_rows": 0,
+  "sha256": "7fac6e426ea02d4a764eff06befb1fcb96057c2358b6abc878c2403f3e0bccc9"
+ },
+ "ozone": {
+  "id": 1487,
+  "openml_name": "ozone-level-8hr",
+  "version": "1",
+  "N": 2534,
+  "F": 72,
+  "K": 2,
+  "dropped_rows": 0,
+  "sha256": "b59797efe516094ad4d6f1a857261cd0f04c4bd1c457529722ef40374cec1722"
+ },
+ "qsar_biodeg": {
+  "id": 1494,
+  "openml_name": "qsar-biodeg",
+  "version": "1",
+  "N": 1055,
+  "F": 41,
+  "K": 2,
+  "dropped_rows": 0,
+  "sha256": "91b2049674223a633c19c99a659c8e1becbd6b26642f373e4fe0586a33723ac1"
+ },
+ "mfeat_karhunen": {
+  "id": 16,
+  "openml_name": "mfeat-karhunen",
+  "version": "1",
+  "N": 2000,
+  "F": 64,
+  "K": 10,
+  "dropped_rows": 0,
+  "sha256": "011f9f70973a87c3b6f611892e41253dc72f19480ec0d713a529a6797d689207"
+ },
+ "texture": {
+  "id": 40499,
+  "openml_name": "texture",
+  "version": "1",
+  "N": 5500,
+  "F": 40,
+  "K": 11,
+  "dropped_rows": 0,
+  "sha256": "a15359cae70ece7fe32fcf68ccab0860cc87971944313ff84d3440ad608462ef"
+ },
+ "blood_transfusion": {
+  "id": 1464,
+  "openml_name": "blood-transfusion-service-center",
+  "version": "1",
+  "N": 748,
+  "F": 4,
+  "K": 2,
+  "dropped_rows": 0,
+  "sha256": "e4697f4619231827fb0df2d5bc83d22d931a1a4ecb064ed9170886012b22890d"
+ }
+}

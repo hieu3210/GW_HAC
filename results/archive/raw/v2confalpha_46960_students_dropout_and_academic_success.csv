@@ -1,0 +1,11 @@
+dataset,split,level,share_in_band,F
+46960_students_dropout_and_academic_success,0,2,0.3157894736842105,19
+46960_students_dropout_and_academic_success,0,5,0.3157894736842105,19
+46960_students_dropout_and_academic_success,1,2,0.2631578947368421,19
+46960_students_dropout_and_academic_success,1,5,0.42105263157894735,19
+46960_students_dropout_and_academic_success,2,2,0.10526315789473684,19
+46960_students_dropout_and_academic_success,2,5,0.3684210526315789,19
+46960_students_dropout_and_academic_success,3,2,0.2631578947368421,19
+46960_students_dropout_and_academic_success,3,5,0.2631578947368421,19
+46960_students_dropout_and_academic_success,4,2,0.3157894736842105,19
+46960_students_dropout_and_academic_success,4,5,0.2631578947368421,19

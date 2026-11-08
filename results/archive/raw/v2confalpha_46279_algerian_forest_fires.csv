@@ -1,0 +1,11 @@
+dataset,split,level,share_in_band,F
+46279_algerian_forest_fires,0,2,0.5,12
+46279_algerian_forest_fires,0,5,0.75,12
+46279_algerian_forest_fires,1,2,0.4166666666666667,12
+46279_algerian_forest_fires,1,5,0.75,12
+46279_algerian_forest_fires,2,2,0.5833333333333334,12
+46279_algerian_forest_fires,2,5,0.75,12
+46279_algerian_forest_fires,3,2,0.4166666666666667,12
+46279_algerian_forest_fires,3,5,0.8333333333333334,12
+46279_algerian_forest_fires,4,2,0.4166666666666667,12
+46279_algerian_forest_fires,4,5,0.6666666666666666,12

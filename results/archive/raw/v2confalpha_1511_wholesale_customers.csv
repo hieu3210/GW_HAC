@@ -1,0 +1,11 @@
+dataset,split,level,share_in_band,F
+1511_wholesale_customers,0,2,0.2857142857142857,7
+1511_wholesale_customers,0,5,0.8571428571428571,7
+1511_wholesale_customers,1,2,0.5714285714285714,7
+1511_wholesale_customers,1,5,0.8571428571428571,7
+1511_wholesale_customers,2,2,0.5714285714285714,7
+1511_wholesale_customers,2,5,0.8571428571428571,7
+1511_wholesale_customers,3,2,0.5714285714285714,7
+1511_wholesale_customers,3,5,0.8571428571428571,7
+1511_wholesale_customers,4,2,0.2857142857142857,7
+1511_wholesale_customers,4,5,0.5714285714285714,7

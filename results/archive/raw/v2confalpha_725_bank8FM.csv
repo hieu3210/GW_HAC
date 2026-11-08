@@ -1,0 +1,11 @@
+dataset,split,level,share_in_band,F
+725_bank8FM,0,2,0.75,8
+725_bank8FM,0,5,0.875,8
+725_bank8FM,1,2,0.75,8
+725_bank8FM,1,5,0.875,8
+725_bank8FM,2,2,0.75,8
+725_bank8FM,2,5,0.875,8
+725_bank8FM,3,2,0.75,8
+725_bank8FM,3,5,0.875,8
+725_bank8FM,4,2,0.75,8
+725_bank8FM,4,5,0.875,8

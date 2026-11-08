@@ -1,0 +1,11 @@
+dataset,split,level,share_in_band,F
+871_pollen,0,2,0.0,5
+871_pollen,0,5,0.0,5
+871_pollen,1,2,0.0,5
+871_pollen,1,5,0.8,5
+871_pollen,2,2,0.0,5
+871_pollen,2,5,0.4,5
+871_pollen,3,2,0.0,5
+871_pollen,3,5,0.6,5
+871_pollen,4,2,0.0,5
+871_pollen,4,5,0.4,5

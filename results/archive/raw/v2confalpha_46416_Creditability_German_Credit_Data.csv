@@ -1,0 +1,11 @@
+dataset,split,level,share_in_band,F
+46416_Creditability_German_Credit_Data,0,2,0.1,20
+46416_Creditability_German_Credit_Data,0,5,0.2,20
+46416_Creditability_German_Credit_Data,1,2,0.1,20
+46416_Creditability_German_Credit_Data,1,5,0.15,20
+46416_Creditability_German_Credit_Data,2,2,0.05,20
+46416_Creditability_German_Credit_Data,2,5,0.15,20
+46416_Creditability_German_Credit_Data,3,2,0.15,20
+46416_Creditability_German_Credit_Data,3,5,0.2,20
+46416_Creditability_German_Credit_Data,4,2,0.1,20
+46416_Creditability_German_Credit_Data,4,5,0.25,20

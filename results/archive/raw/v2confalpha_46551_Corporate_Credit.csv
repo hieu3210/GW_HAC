@@ -1,0 +1,11 @@
+dataset,split,level,share_in_band,F
+46551_Corporate_Credit,0,2,0.08,25
+46551_Corporate_Credit,0,5,0.16,25
+46551_Corporate_Credit,1,2,0.04,25
+46551_Corporate_Credit,1,5,0.16,25
+46551_Corporate_Credit,2,2,0.0,25
+46551_Corporate_Credit,2,5,0.2,25
+46551_Corporate_Credit,3,2,0.04,25
+46551_Corporate_Credit,3,5,0.2,25
+46551_Corporate_Credit,4,2,0.2,25
+46551_Corporate_Credit,4,5,0.16,25

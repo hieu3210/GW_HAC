@@ -1,0 +1,11 @@
+dataset,split,level,share_in_band,F
+45028_california,0,2,0.25,8
+45028_california,0,5,0.625,8
+45028_california,1,2,0.125,8
+45028_california,1,5,0.75,8
+45028_california,2,2,0.25,8
+45028_california,2,5,0.5,8
+45028_california,3,2,0.25,8
+45028_california,3,5,0.5,8
+45028_california,4,2,0.25,8
+45028_california,4,5,0.625,8

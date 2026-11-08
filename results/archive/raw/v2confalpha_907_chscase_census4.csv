@@ -1,0 +1,11 @@
+dataset,split,level,share_in_band,F
+907_chscase_census4,0,2,0.0,7
+907_chscase_census4,0,5,0.8571428571428571,7
+907_chscase_census4,1,2,0.0,7
+907_chscase_census4,1,5,0.8571428571428571,7
+907_chscase_census4,2,2,0.0,7
+907_chscase_census4,2,5,0.8571428571428571,7
+907_chscase_census4,3,2,0.0,7
+907_chscase_census4,3,5,0.8571428571428571,7
+907_chscase_census4,4,2,0.0,7
+907_chscase_census4,4,5,1.0,7

@@ -1,0 +1,11 @@
+dataset,split,level,share_in_band,F
+1496_ringnorm,0,2,0.0,20
+1496_ringnorm,0,5,0.85,20
+1496_ringnorm,1,2,0.0,20
+1496_ringnorm,1,5,0.9,20
+1496_ringnorm,2,2,0.0,20
+1496_ringnorm,2,5,0.8,20
+1496_ringnorm,3,2,0.0,20
+1496_ringnorm,3,5,0.85,20
+1496_ringnorm,4,2,0.0,20
+1496_ringnorm,4,5,0.85,20

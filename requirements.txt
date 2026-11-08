@@ -1,0 +1,10 @@
+# Pinned environment of the study (Python 3.14.7, macOS arm64). ExKMC 0.0.3 is installed by tools/install_exkmc.py.
+numpy==2.4.6
+scipy==1.17.1
+pandas==3.0.3
+scikit-learn==1.9.0
+matplotlib==3.10.9
+scikit-fuzzy==0.5.0
+requests==2.34.2
+pytest==9.0.3
+Jinja2==3.1.6           # pandas DataFrame.to_latex

@@ -1,0 +1,11 @@
+dataset,split,level,share_in_band,F
+46880_air_quality_and_pollution_assessment,0,2,0.2222222222222222,9
+46880_air_quality_and_pollution_assessment,0,5,0.8888888888888888,9
+46880_air_quality_and_pollution_assessment,1,2,0.2222222222222222,9
+46880_air_quality_and_pollution_assessment,1,5,0.6666666666666666,9
+46880_air_quality_and_pollution_assessment,2,2,0.3333333333333333,9
+46880_air_quality_and_pollution_assessment,2,5,0.7777777777777778,9
+46880_air_quality_and_pollution_assessment,3,2,0.2222222222222222,9
+46880_air_quality_and_pollution_assessment,3,5,0.6666666666666666,9
+46880_air_quality_and_pollution_assessment,4,2,0.2222222222222222,9
+46880_air_quality_and_pollution_assessment,4,5,0.8888888888888888,9

@@ -1,0 +1,20 @@
+\begin{tabular}{lllrrrrl}
+\toprule
+Claim & Comparator & Test & $n$ & median diff. & 95\% CI & $p$ & Decision\\
+\midrule
+H1 & FL-U8 & NI ($\delta=0.020$) & 126 & -0.000 & [-0.003, +0.000] & 0.001 & supported\\
+H2 & KM & NI ($\delta=0.020$) & 126 & -0.000 & [-0.003, +0.000] & 0.000 & supported\\
+H3 & GW-nw & TOST ($\delta=0.020$) & 126 & +0.000 & [-0.000, +0.000] & 0.000 & supported\\
+P1 & -- & slope $<-1$ & 126 & -1.45 & -- & 0.000 & supported\\
+P2 & -- & sign test & 117 & 112/5 & -- & 0.000 & supported\\
+S1: H1 & FL-U8 & NI & 88 & +0.000 & [-0.018, +0.008] & 0.048 & not supported\\
+S1: H2 & KM & NI & 88 & -0.002 & [-0.004, +0.000] & 0.000 & supported\\
+S1: H3 & GW-nw & TOST & 88 & +0.000 & [-0.002, +0.002] & 0.000 & supported\\
+S2: H1 & FL-U8 & NI & 96 & +0.000 & [-0.002, +0.001] & 0.002 & supported\\
+S2: H2 & KM & NI & 96 & -0.000 & [-0.003, +0.000] & 0.000 & supported\\
+S2: H3 & GW-nw & TOST & 96 & +0.000 & [-0.001, +0.001] & 0.000 & supported\\
+GW-HAC minus FL-U8 log1p & -- & descriptive & 126 & +0.000 & [-0.001, +0.002] & -- & --\\
+GW-HAC log1p minus minmax & -- & descriptive & 126 & +0.000 & [+0.000, +0.000] & -- & --\\
+GW-HAC minus KM log1p & -- & descriptive & 126 & +0.000 & [-0.000, +0.000] & -- & --\\
+\bottomrule
+\end{tabular}

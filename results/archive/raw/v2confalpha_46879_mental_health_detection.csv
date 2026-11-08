@@ -1,0 +1,11 @@
+dataset,split,level,share_in_band,F
+46879_mental_health_detection,0,2,0.7142857142857143,14
+46879_mental_health_detection,0,5,0.0,14
+46879_mental_health_detection,1,2,0.7142857142857143,14
+46879_mental_health_detection,1,5,0.0,14
+46879_mental_health_detection,2,2,0.7142857142857143,14
+46879_mental_health_detection,2,5,0.0,14
+46879_mental_health_detection,3,2,0.7142857142857143,14
+46879_mental_health_detection,3,5,0.0,14
+46879_mental_health_detection,4,2,0.7142857142857143,14
+46879_mental_health_detection,4,5,0.0,14

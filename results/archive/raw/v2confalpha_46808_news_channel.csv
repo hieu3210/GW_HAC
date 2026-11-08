@@ -1,0 +1,11 @@
+dataset,split,level,share_in_band,F
+46808_news_channel,0,2,0.125,16
+46808_news_channel,0,5,0.6875,16
+46808_news_channel,1,2,0.1875,16
+46808_news_channel,1,5,0.6875,16
+46808_news_channel,2,2,0.125,16
+46808_news_channel,2,5,0.6875,16
+46808_news_channel,3,2,0.0625,16
+46808_news_channel,3,5,0.75,16
+46808_news_channel,4,2,0.125,16
+46808_news_channel,4,5,0.8125,16

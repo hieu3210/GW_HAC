@@ -1,0 +1,75 @@
+{
+ "n_dev": 25,
+ "delta_raw": 0.01816847084616088,
+ "delta": 0.02,
+ "sigma_d": 0.09527861001732635,
+ "n_required": 110,
+ "n_max": 127,
+ "method": "bootstrap simulation of the one-sided Wilcoxon NI test (H1) at the worst Holm level alpha_A/3",
+ "sim_alpha": 0.008333333333333333,
+ "sim_R": 4000,
+ "sim_seed": 20261106,
+ "power_curve": [
+  [
+   40,
+   0.32175
+  ],
+  [
+   50,
+   0.41175
+  ],
+  [
+   60,
+   0.51
+  ],
+  [
+   70,
+   0.582
+  ],
+  [
+   80,
+   0.65075
+  ],
+  [
+   90,
+   0.71475
+  ],
+  [
+   100,
+   0.77275
+  ],
+  [
+   110,
+   0.8135
+  ]
+ ],
+ "n_formula_not_used": 188,
+ "dev_median_diff_GWHAC_minus_FLU8": 0.0023744879372976915,
+ "datasets": [
+  "banknote",
+  "beed_eeg",
+  "breast_cancer",
+  "ecoli",
+  "eeg_eye_state",
+  "gas_drift",
+  "glass",
+  "har",
+  "ionosphere",
+  "iris",
+  "libras",
+  "optdigits",
+  "parkinsons",
+  "pendigits",
+  "pima",
+  "satimage",
+  "seeds",
+  "segment",
+  "sonar",
+  "thyroid",
+  "vehicle",
+  "vowel",
+  "waveform",
+  "wine",
+  "yeast"
+ ]
+}

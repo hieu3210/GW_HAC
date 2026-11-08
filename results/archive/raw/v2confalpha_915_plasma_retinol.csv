@@ -1,0 +1,11 @@
+dataset,split,level,share_in_band,F
+915_plasma_retinol,0,2,0.2,10
+915_plasma_retinol,0,5,0.9,10
+915_plasma_retinol,1,2,0.2,10
+915_plasma_retinol,1,5,0.9,10
+915_plasma_retinol,2,2,0.2,10
+915_plasma_retinol,2,5,0.9,10
+915_plasma_retinol,3,2,0.2,10
+915_plasma_retinol,3,5,0.6,10
+915_plasma_retinol,4,2,0.0,10
+915_plasma_retinol,4,5,0.8,10

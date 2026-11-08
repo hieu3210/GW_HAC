@@ -1,0 +1,11 @@
+dataset,split,level,share_in_band,F
+46375_default_of_credit_card_clients,0,2,0.2608695652173913,23
+46375_default_of_credit_card_clients,0,5,0.391304347826087,23
+46375_default_of_credit_card_clients,1,2,0.30434782608695654,23
+46375_default_of_credit_card_clients,1,5,0.5217391304347826,23
+46375_default_of_credit_card_clients,2,2,0.2608695652173913,23
+46375_default_of_credit_card_clients,2,5,0.391304347826087,23
+46375_default_of_credit_card_clients,3,2,0.34782608695652173,23
+46375_default_of_credit_card_clients,3,5,0.5217391304347826,23
+46375_default_of_credit_card_clients,4,2,0.30434782608695654,23
+46375_default_of_credit_card_clients,4,5,0.4782608695652174,23

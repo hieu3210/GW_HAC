@@ -1,0 +1,11 @@
+dataset,split,level,share_in_band,F
+721_pwLinear,0,2,0.0,10
+721_pwLinear,0,5,0.0,10
+721_pwLinear,1,2,0.0,10
+721_pwLinear,1,5,0.0,10
+721_pwLinear,2,2,0.0,10
+721_pwLinear,2,5,0.0,10
+721_pwLinear,3,2,0.0,10
+721_pwLinear,3,5,0.0,10
+721_pwLinear,4,2,0.0,10
+721_pwLinear,4,5,0.0,10

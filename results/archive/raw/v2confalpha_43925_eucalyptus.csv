@@ -1,0 +1,11 @@
+dataset,split,level,share_in_band,F
+43925_eucalyptus,0,2,0.0,5
+43925_eucalyptus,0,5,0.2,5
+43925_eucalyptus,1,2,0.0,5
+43925_eucalyptus,1,5,0.0,5
+43925_eucalyptus,2,2,0.0,5
+43925_eucalyptus,2,5,0.0,5
+43925_eucalyptus,3,2,0.0,5
+43925_eucalyptus,3,5,0.2,5
+43925_eucalyptus,4,2,0.0,5
+43925_eucalyptus,4,5,0.4,5

@@ -1,0 +1,11 @@
+dataset,split,level,share_in_band,F
+1507_twonorm,0,2,0.0,20
+1507_twonorm,0,5,0.45,20
+1507_twonorm,1,2,0.0,20
+1507_twonorm,1,5,0.6,20
+1507_twonorm,2,2,0.0,20
+1507_twonorm,2,5,0.35,20
+1507_twonorm,3,2,0.0,20
+1507_twonorm,3,5,0.3,20
+1507_twonorm,4,2,0.0,20
+1507_twonorm,4,5,0.3,20
