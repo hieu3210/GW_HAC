@@ -1,21 +1,33 @@
-# Reproduction package: Distortion Analysis of Hedge-Algebra Quantization for Multigranular Clustering
+# Reproduction package: Distortion-Bounded Linguistic Representation for Interpretable Multigranular Clustering
 
 This repository contains the code, the data and the archived per-split results needed to reproduce every table,
 figure and number of the paper
 
-> N. D. Hieu and H. T. Minh, *Distortion Analysis of Hedge-Algebra Quantization for Multigranular Clustering*
-> (submitted). Confirmatory protocol registered at OSF, doi:[10.17605/OSF.IO/KN54P](https://doi.org/10.17605/OSF.IO/KN54P).
+> *Distortion-Bounded Linguistic Representation for Interpretable Multigranular Clustering*, submitted to IEEE
+> Transactions on Emerging Topics in Computational Intelligence (TETCI-2026-3160, 16 November 2026).
+> Confirmatory protocol registered at OSF, doi:[10.17605/OSF.IO/KN54P](https://doi.org/10.17605/OSF.IO/KN54P).
+
+The manuscript is under double-blind review: do not link this package from the review version. Section, table and
+figure numbers below follow the TETCI manuscript (Roman table numbers). The study, the data and the archived results
+are the same as for the earlier version of the paper; only the text changed, so the archive and its checksums are
+unchanged.
 
 ## Quick start
 
 ```sh
 sh reproduce.sh setup          # Python 3.14 virtual environment with the pinned packages + ExKMC (needs internet)
-sh reproduce.sh                # verify, test, numerics, tables, check   (about 1-2 minutes)
+sh reproduce.sh                # verify, test, numerics, tables, check, tetci   (about 2 minutes)
 ```
 
-The last line of the default run should read `66/66 checks passed`. Every table of Section 7 is then rebuilt from the
-archived per-split results and compared byte for byte with the archive, and the numerical verification of Section 6
-is recomputed and compared with the values printed in the paper.
+The default run ends with two summaries:
+
+- `66/66 checks passed` (`tools/check_outputs.py`): every table of Section V-C is rebuilt from the archived per-split
+  results and compared byte for byte with the archive; the numerical verification of Section V-A reproduces Table I,
+  Fig. 1 and its in-text numbers; the Iris example reproduces Table IV.
+- `66/66 TETCI checks passed (6 with a printing erratum)` (`tools/check_tetci.py`): every other number printed in
+  Sections V-A to V-D (the Gaussian decomposition example, Tables II, III and V, certificates, descriptions, noise,
+  Spambase, the price on real features, Fig. 2, running times) is compared with the regenerated outputs. Six printed
+  numbers are off by one unit in the last digit (see "Printing errata" below).
 
 Two further stages each take about 30 seconds and recompute results from the data:
 
@@ -65,6 +77,7 @@ Per feature, (θ, α) is calibrated on the training data in one of two ways:
 | `edge_hac/data/validation2/` | the 126 confirmatory datasets, the OpenML metadata snapshot of 6 November 2026, `SELECTION.json` and `SELECTION_LOCK.json` |
 | `results/archive/` | the per-split results (`raw/`, 815 files), the tables and the logs of the runs reported in the paper, with `SHA256SUMS.txt` |
 | `reference/figures/` | Figs. 1 and 2 as submitted |
+| `tools/check_tetci.py` | comparison with the numbers printed in the TETCI manuscript (stage `tetci`) |
 | `tools/` | ExKMC installer, output checks, raw-result comparison, dataset inventory |
 
 ## Where each result comes from
@@ -72,22 +85,25 @@ Per feature, (θ, α) is calibrated on the training data in one of two ways:
 All commands are run by `reproduce.sh`. The paths in the last column are relative to `out/` after `tables` and
 `numerics` have run, or to `results/archive/`.
 
-| Paper | Producing script(s) | Output |
+| TETCI manuscript | Producing script(s) | Output |
 |---|---|---|
-| Section 6, Table 1, Fig. 1, in-text numbers | `v2/paper_tools/numerics_sec6.py` | `tables/tab1_medium.tex`, `figures/theory_verification.pdf`, `tables/numerics_sec6.json` |
-| Table 2 (development and preliminary datasets) | `v2/60_dev_factorial.py` → `v2/69_dev_analyze.py` | `tables/v2_baselines_dev.tex`, `v2_baselines_val11.tex` (rows FL-U8, FL-U15, KM, GW-nw, IMM, ExKMC) |
-| Factorial design (Section 7.2, "Accuracy") | `60`, `69` | `tables/v2_factorial_dev.csv`, `v2_dev_summary_dev.json` (`factor_effects`) |
-| Table 3 | `v2/61_dev_theory.py`, `v2/61b_price_fix.py` → `69` | `tables/v2_theory_features_dev.tex` (α band, sign agreement, distortion reduction, price), `v2_decomposition_dev.tex`, `v2_certificates_dev.tex` |
-| Certificates, certified granularity m* | `61` → `69` | `tables/v2_certificates_dev.tex`, `v2_granularity_dev.tex` |
-| Table 4 (Iris) | `v2/paper_tools/worked_example.py iris` | `worked_example_iris.txt` |
-| Description fidelity, threshold-tree depth | `v2/62_dev_interp.py` → `69` | `tables/v2_interp_dev.tex` |
-| Noise, Spambase, log/rank preprocessing | `v2/64_dev_noise.py`, `v2/63_dev_skew.py` → `69` | `tables/v2_noise_dev.tex`, `v2_skew_per_dataset_*.csv` |
-| Running time (Section 7.2), Table S12 | `v2/75_timing.py` → `v2/paper_tools/timing_numbers.py` | `timing_numbers.txt`, `tables/timing_summary_by_dataset.csv` |
-| Margin δ and sample size n | `v2/70_power.py` | `tables/power.json` |
-| Dataset selection | `v2/71_select_validation.py --listing <snapshot>` | `edge_hac/data/validation2/SELECTION.json` |
-| Table 5, confirmatory text | `v2/73_confirm_run.py` → `v2/74_confirm_analyze.py` | `tables/confirm_table.tex`, `confirm.json`, `confirm_per_dataset.csv` |
+| Sec. V-A, Table I, Fig. 1, in-text numbers | `v2/paper_tools/numerics_sec6.py` | `tables/tab1_medium.tex`, `figures/theory_verification.pdf`, `tables/numerics_sec6.json` |
+| Sec. V-A, four Gaussian clusters (Proposition 6) | `numerics_sec6.py` (`decomposition_example`) | `numerics_sec6.json` (`decomposition`) |
+| Table II (development and preliminary datasets) | `v2/60_dev_factorial.py` → `v2/69_dev_analyze.py` | `tables/v2_baselines_dev.tex`, `v2_baselines_val11.tex`, `v2_dev_summary_*.json` (`GWHAC3_vs`) |
+| Factorial design (Sec. V-B, V-C "Clustering accuracy") | `60`, `69` | `tables/v2_factorial_dev.csv`, `v2_dev_summary_dev.json` (`factor_effects`) |
+| Table III, "Medium and hedge asymmetry" | `v2/61_dev_theory.py`, `v2/61b_price_fix.py` → `69` | `tables/v2_theory_features_dev.tex`, `v2_decomposition_dev.tex`, `v2_certificates_dev.tex` |
+| "Vocabulary price" (44–59% on near-continuous features) | `61b` | raw `v2price_*.csv`, computed in `tools/check_tetci.py` |
+| "Objective decomposition" (slope −1.82, T₂ < 0 in 85%) | `61` | raw `v2dec_*.csv`, computed in `tools/check_tetci.py` |
+| "Assignment certificates" (Theorem 4, Corollary 2, m*) | `61` → `69` | `tables/v2_certificates_dev.tex`, `v2_granularity_dev.tex` |
+| Table IV (Iris) | `v2/paper_tools/worked_example.py iris` | `worked_example_iris.txt` |
+| "Linguistic descriptions" (fidelity, tree depth) | `v2/62_dev_interp.py` → `69` | `tables/v2_interp_dev.tex` |
+| "Noise and preprocessing" (Spambase, log/rank) | `v2/64_dev_noise.py`, `v2/63_dev_skew.py` → `69` | `tables/v2_noise_dev.tex`, `v2_skew_per_dataset_val11.csv` |
+| "Runtime" (Sec. V-C, V-D) | `v2/75_timing.py` → `v2/paper_tools/timing_numbers.py` | `timing_numbers.txt`, `tables/timing_summary_by_dataset.csv` |
+| Margin δ and sample size n (Sec. V-B) | `v2/70_power.py` | `tables/power.json` |
+| Dataset selection (Sec. V-B) | `v2/71_select_validation.py --listing <snapshot>` | `edge_hac/data/validation2/SELECTION.json` |
+| Table V, confirmatory text | `v2/73_confirm_run.py` → `v2/74_confirm_analyze.py` | `tables/confirm_table.tex`, `confirm.json`, `confirm_per_dataset.csv` |
 | Fig. 2 | `v2/paper_tools/fig_confirm.py` | `figures/confirm_scatter.pdf` |
-| Supplementary tables | `v2/paper_tools/make_supp.py` | `supplement.tex` |
+| (not part of the TETCI submission) supplementary tables of the earlier version | `v2/paper_tools/make_supp.py` | `supplement.tex` |
 
 ## The confirmatory study
 
@@ -124,7 +140,7 @@ files. Use `sh reproduce.sh selection` instead: it reruns the selection in a san
   - The archived files come from the first development run, which used an iterative 1-D Lloyd quantizer as the
     reference for the price.
   - That reference was later replaced by an exact dynamic-programming quantizer, and `61b_price_fix.py` recomputed the
-    price column used in Table 3 (`v2price_*.csv`).
+    price column used in Table III (`v2price_*.csv`).
   - Rerunning `61` with the current code therefore changes only this column. `tools/compare_raw.py` reports it as
     `same*`.
 - **Timing.** Running times depend on the machine. The archived times were measured sequentially on one core of the
@@ -132,18 +148,35 @@ files. Use `sh reproduce.sh selection` instead: it reruns the selection in a san
   - `76_timing_analyze.py` groups by (dataset, N, F, K). Because F is counted after removing constant columns, it can
     vary between splits, so a few datasets are counted twice (n = 28 / 133 instead of 25 / 126).
   - The numbers in the paper are per dataset and come from `paper_tools/timing_numbers.py`.
-- **Section 6.** The script that produced the submitted Fig. 1 was not archived. `numerics_sec6.py` re-implements
-  Section 6 from its specification:
+- **Section V-A.** The script that produced the submitted Fig. 1 was not archived. `numerics_sec6.py` re-implements
+  Section V-A from its specification:
   - midpoint quadrature with 4·10⁵ nodes (8·10⁵ for the α panel);
   - Lloyd's algorithm from the companding start;
-  - for "HA, optimal", the best (θ, α) on a grid of step 0.005.
+  - for "HA, optimal", the best (θ, α) on a grid of step 0.005;
+  - four Gaussian clusters: N = 3000, means uniform in [0.2, 0.8]⁴, SD 0.06, clipped, HA-θ, k-means partition
+    (this configuration is now stated in the manuscript).
 
-  It reproduces Table 1 exactly and every in-text number of Section 6 to the printed precision. The one exception is
-  the four-Gaussian-cluster example of the objective decomposition: the paper does not specify its configuration, so
-  only the exact identity (machine precision) is checked, not the reported ratios.
+  It reproduces Table I exactly and every in-text number of Section V-A to the printed precision.
 - **ExKMC.** ExKMC 0.0.3 is a source package whose Cython extension does not build on recent Python versions.
   `tools/install_exkmc.py` installs it with the pure-Python splitters shipped in the same package; this changes the
   speed, not the result. Without ExKMC, the IMM and ExKMC columns are skipped.
+
+## Printing errata of the submitted manuscript
+
+`tools/check_tetci.py` accepts a printed number that differs by one unit in its last digit and lists it. All six come
+from rounding an already rounded value; none changes a conclusion. Correct them in the revision:
+
+| Where | Printed | Correct (from the archive) |
+|---|---|---|
+| Table III, α̂ⱼ ∈ [0.45, 0.55], level 4 | 59% | 58% (0.5845) |
+| Table III, sign agreement, level 2 | 72% | 71% (0.7146) |
+| Table III, price of HA-grid calibrated at ℓ, level 4 | 1.87 | 1.86 (1.8647) |
+| Sec. V-C, "At level 5, 75% were certified one level down" | 75% | 76% (0.7552) |
+| Sec. V-C and V-D, median total runtime of HA-grid GW-HAC | 65 ms | 66 ms (65.5 ms) |
+| Sec. V-C, informative subset, mean GW-HAC − FL-U8 | −0.019 | −0.018 (−0.01846) |
+
+Two in-text numbers use a different family than Table III, which a reader may not expect: the mean log₂ slope −1.82 is
+the absolute gap |J_ℓ − J_N| of HA-θ, and "T₂ negative in 85%" counts per-split HA-grid results.
 
 ## Datasets
 

@@ -1,5 +1,6 @@
 #!/bin/sh
-# Reproduction driver for "Distortion Analysis of Hedge-Algebra Quantization for Multigranular Clustering".
+# Reproduction driver for "Distortion-Bounded Linguistic Representation for Interpretable Multigranular Clustering"
+# (IEEE TETCI submission TETCI-2026-3160).
 # Run from this folder:   sh reproduce.sh [stage ...]
 #
 #   setup          create .venv with the pinned environment and the ExKMC baseline (needs internet access)
@@ -8,7 +9,9 @@
 #   numerics       Section 6: Table 1, Fig. 1 and the in-text numbers (no data needed, about 1 minute)
 #   tables         Section 7: regenerate Tables 2, 3, 5, Fig. 2, the Iris example (Table 4), the timing numbers
 #                  and the supplementary tables from the archived per-split results, into out/ (about 1 minute)
-#   check          compare out/ with the archive (byte for byte) and with the numbers printed in the paper
+#   check          compare out/ with the archive (byte for byte), Table I, Fig. 1 and Table IV
+#   tetci          compare out/ with every other number printed in the TETCI manuscript (Tables II, III, V, Fig. 2,
+#                  Sections V-A to V-D) and list the printing errata
 #   spot           recompute the per-split results of one development dataset (DS, default iris) and one
 #                  confirmatory dataset (CONF, default 40705_tokyo1) and compare them with the archive (about 30 s)
 #   selection      redo the confirmatory dataset selection offline from the archived OpenML metadata snapshot,
@@ -17,7 +20,7 @@
 #   rerun-confirm  recompute all confirmatory results into results/GW-HAC_v2 (hours)
 #   rerun-timing   single-core timing of all methods into results/GW-HAC_v2 (15-40 min; machine dependent)
 #
-# Without arguments: verify test numerics tables check.
+# Without arguments: verify test numerics tables check tetci.
 # Environment: PYTHON (interpreter; default .venv/bin/python, else python3), WORKERS (default 4), DS, CONF.
 set -e
 cd "$(dirname "$0")"
@@ -27,7 +30,7 @@ PY=${PYTHON:-$ROOT/.venv/bin/python}
 ARCH=$ROOT/results/archive
 OUT=$ROOT/out
 W=${WORKERS:-4}
-STAGES=${*:-verify test numerics tables check}
+STAGES=${*:-verify test numerics tables check tetci}
 
 for s in $STAGES; do
   echo "== $s"
@@ -80,6 +83,8 @@ EOF
     echo "tables in out/tables, figures in out/figures, out/supplement.tex, out/timing_numbers.txt, out/worked_example_iris.txt" ;;
   check)
     "$PY" tools/check_outputs.py "$OUT" ;;
+  tetci)
+    "$PY" tools/check_tetci.py "$OUT" ;;
   spot)
     D=${DS:-iris}; C=${CONF:-40705_tokyo1}; SP=$OUT/spot; rm -rf "$SP"; mkdir -p "$SP"
     (cd edge_hac
